@@ -1,0 +1,51 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    height: 95vh;
+}
+
+.logoDiv{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    color: #2da84c;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+
+    .cash{
+        font-size: 2.2rem;
+    }
+}
+
+.menuDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .divTitle{
+        text-align: center;
+        padding: 30px;
+        color: #2da84c;
+        align-items: center;
+        display: flex;
+        margin-bottom: 5px;
+    }
+    .menuLink{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 1.05rem;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+        color: #205f32;
+    }
+    .menuLink:hover{
+        background: #2da84c;
+        color: aliceblue;
+    }
+}
